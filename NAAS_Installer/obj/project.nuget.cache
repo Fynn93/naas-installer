@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qdygHIMmkCFwF9HcBxKzBERrlzwfEFxnmAox5F6oHqCNmByOE+Ljvb/2OLe2/tMy6csLfNw2R3PIZlqHIIPOlQ==",
+  "success": true,
+  "projectFilePath": "S:\\NAAS_Installer\\NAAS_Installer\\NAAS_Installer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rudol\\.nuget\\packages\\autoupdater.net.official\\1.7.0\\autoupdater.net.official.1.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

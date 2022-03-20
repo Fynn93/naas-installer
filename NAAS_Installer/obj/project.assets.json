@@ -1,0 +1,219 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Autoupdater.NET.Official/1.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0-windows/AutoUpdater.NET.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows/AutoUpdater.NET.dll": {}
+        },
+        "resource": {
+          "lib/net5.0-windows/ar/AutoUpdater.NET.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/net5.0-windows/cs/AutoUpdater.NET.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net5.0-windows/da/AutoUpdater.NET.resources.dll": {
+            "locale": "da"
+          },
+          "lib/net5.0-windows/de/AutoUpdater.NET.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net5.0-windows/es/AutoUpdater.NET.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net5.0-windows/fr/AutoUpdater.NET.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net5.0-windows/it/AutoUpdater.NET.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net5.0-windows/ja-JP/AutoUpdater.NET.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net5.0-windows/ko/AutoUpdater.NET.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net5.0-windows/nl/AutoUpdater.NET.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/net5.0-windows/pl/AutoUpdater.NET.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net5.0-windows/pt-BR/AutoUpdater.NET.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net5.0-windows/pt/AutoUpdater.NET.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/net5.0-windows/ru/AutoUpdater.NET.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net5.0-windows/sk/AutoUpdater.NET.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/net5.0-windows/sv/AutoUpdater.NET.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net5.0-windows/th/AutoUpdater.NET.resources.dll": {
+            "locale": "th"
+          },
+          "lib/net5.0-windows/tr/AutoUpdater.NET.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net5.0-windows/zh-tw/AutoUpdater.NET.resources.dll": {
+            "locale": "zh-tw"
+          },
+          "lib/net5.0-windows/zh/AutoUpdater.NET.resources.dll": {
+            "locale": "zh"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Autoupdater.NET.Official/1.7.0": {
+      "sha512": "gNBNXwaiLc9oNtJ0WWwRvWsmGVpCN8ii2acpHpYtttkKh3xYJjmbLG2uf243r+nXbmo6KVauXGC82Igt2kHhxw==",
+      "type": "package",
+      "path": "autoupdater.net.official/1.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autoupdater.net.official.1.7.0.nupkg.sha512",
+        "autoupdater.net.official.nuspec",
+        "lib/net45/AutoUpdater.NET.dll",
+        "lib/net45/AutoUpdater.NET.pdb",
+        "lib/net45/AutoUpdater.NET.xml",
+        "lib/net5.0-windows/AutoUpdater.NET.deps.json",
+        "lib/net5.0-windows/AutoUpdater.NET.dll",
+        "lib/net5.0-windows/AutoUpdater.NET.pdb",
+        "lib/net5.0-windows/AutoUpdater.NET.xml",
+        "lib/net5.0-windows/ar/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/cs/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/da/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/de/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/es/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/fr/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/it/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/ja-JP/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/ko/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/nl/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/pl/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/pt-BR/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/pt/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/ru/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/sk/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/sv/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/th/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/tr/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/zh-tw/AutoUpdater.NET.resources.dll",
+        "lib/net5.0-windows/zh/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/AutoUpdater.NET.deps.json",
+        "lib/netcoreapp3.1/AutoUpdater.NET.dll",
+        "lib/netcoreapp3.1/AutoUpdater.NET.pdb",
+        "lib/netcoreapp3.1/AutoUpdater.NET.xml",
+        "lib/netcoreapp3.1/ar/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/cs/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/da/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/de/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/es/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/fr/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/it/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/ja-JP/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/ko/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/nl/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/pl/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/pt-BR/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/pt/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/ru/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/sk/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/sv/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/th/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/tr/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/zh-tw/AutoUpdater.NET.resources.dll",
+        "lib/netcoreapp3.1/zh/AutoUpdater.NET.resources.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Autoupdater.NET.Official >= 1.7.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\rudol\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "S:\\NAAS_Installer\\NAAS_Installer\\NAAS_Installer.csproj",
+      "projectName": "NAAS_Installer",
+      "projectPath": "S:\\NAAS_Installer\\NAAS_Installer\\NAAS_Installer.csproj",
+      "packagesPath": "C:\\Users\\rudol\\.nuget\\packages\\",
+      "outputPath": "S:\\NAAS_Installer\\NAAS_Installer\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\rudol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\rudol\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Autoupdater.NET.Official": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
