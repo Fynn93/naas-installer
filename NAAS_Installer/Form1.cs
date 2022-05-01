@@ -33,13 +33,12 @@ namespace NAAS_Installer
 
         private void button4_Click(object sender, EventArgs e)
         {
-            //Process.Start("https://wiki.fynn93.tech/New%20Adventure%20All%20Stars/Installation", );
-            Process.Start(new ProcessStartInfo { FileName = "https://wiki.fynn93.tech/index.php?title=New_Adventure_All_Stars/Installation", UseShellExecute = true });
+            Process.Start(new ProcessStartInfo { FileName = "https://wiki.fynn93.tech/wiki/New_Adventure_All_Stars/Installation", UseShellExecute = true });
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            AutoUpdater.InstalledVersion = new Version("2.0.0.0");
+            AutoUpdater.InstalledVersion = new Version("1.0.0.0");
             AutoUpdater.RunUpdateAsAdmin = false;
             AutoUpdater.DownloadPath = Application.StartupPath + "update";
             AutoUpdater.ReportErrors = true;
