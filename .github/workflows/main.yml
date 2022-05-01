@@ -1,4 +1,4 @@
-name: FIP
+name: NAAS Installer
 
 on:
   push:
