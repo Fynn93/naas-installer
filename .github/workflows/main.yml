@@ -24,17 +24,17 @@ jobs:
     - name: Publish
       run: dotnet publish -p:PublishSingleFile=true -r win-x64 -c Release --self-contained false
     - name: Zip Debug
-      run: Compress-Archive "NAAS_Installer\bin\Debug\net6.0" "NAAS_Installer\bin\Debug\net6.0\NAAS_Installer_Debug.zip"
+      run: Compress-Archive "NAAS_Installer\bin\Debug\net6.0-windows" "NAAS_Installer\bin\Debug\net6.0-windows\NAAS_Installer_Debug.zip"
     - name: Zip Publish
-      run: Compress-Archive "NAAS_Installer\bin\Release\net6.0\win-x64\publish" "NAAS_Installer\bin\Release\net6.0\win-x64\publish\NAAS_Installer_Publish.zip"
+      run: Compress-Archive "NAAS_Installer\bin\Release\net6.0-windows\win-x64\publish" "NAAS_Installer\bin\Release\net6.0-windows\win-x64\publish\NAAS_Installer_Publish.zip"
     - name: Upload Debug
       uses: actions/upload-artifact@v3.0.0
       with:
         name: Debug
-        path: "NAAS_Installer\\bin\\Debug\\net6.0\\NAAS_Installer_Debug.zip"
+        path: "NAAS_Installer\\bin\\Debug\\net6.0-windows\\NAAS_Installer_Debug.zip"
         
     - name: Upload Publish
       uses: actions/upload-artifact@v3.0.0
       with:
         name: Publish
-        path: "NAAS_Installer\\bin\\Release\\net6.0\\win-x64\\publish\\NAAS_Installer_Publish.zip"
+        path: "NAAS_Installer\\bin\\Release\\net6.0-windows\\win-x64\\publish\\NAAS_Installer_Publish.zip"
